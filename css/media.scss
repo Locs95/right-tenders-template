@@ -1,0 +1,397 @@
+/*MEDIA QUERIES*/
+@media (max-width: 1200px) {
+	/*HEADER*/
+	.header {
+		min-height: 650px;
+		&__image {
+			right: -6%;
+			img {
+				max-width: 47vw;
+			}
+		}
+	} 
+	/*HEADER*/ 
+	/*INFO*/
+	.info {
+		&__block {
+			background-size: 60% 100%;
+			background-position: 130% center!important;
+			min-height: 450px;
+		}
+	} 
+	/*INFO*/ 
+}
+@media (max-width: 991px) {
+	/*HEADER*/
+	.header {
+		padding-bottom: 100px;
+		min-height: auto;
+		&__text {
+			margin-top: 60px;
+			&-title {
+				h1 {
+					font-size: 3rem;
+				}
+			}
+		}
+	} 
+	/*HEADER*/ 
+	/*SUBHEADER*/
+	.subheader {
+		&__text {
+			&:before {
+				display: none;
+			}
+		}
+	} 
+	/*SUBHEADER*/ 
+	/*INFO*/
+	.info {
+		&__block {
+			background-image: none;
+			&-title {
+				h2 {
+					font-size: 2rem;
+				}
+			}
+			&-percent {
+				&-count {
+					span {
+						font-size: 5rem;
+					}
+				}
+			}
+		}
+	} 
+	/*INFO*/ 
+	/*INTRO DESIGN*/
+	.intro-design {
+		 -webkit-clip-path: none;
+          clip-path: none;
+		&__info-block {
+			background: url('../img/intro-design-img.png') no-repeat center center;
+			min-height: 500px;
+			padding: 30px 60px;
+		}
+		&__text-block {
+			&-title {
+				h2 {
+					font-size: 2rem;
+				}
+			}
+		}
+	} 
+	/*INTRO DESIGN*/ 
+	/*CREATE CAMPAIGN*/
+	.create-campaign  {
+		&__block {
+			&-title {
+				h2 {
+					font-size: 2rem;
+				}
+			}
+		}
+	}
+	/*CREATE CAMPAIGN*/
+	/*DESIGN FEEDBACK*/
+	.design-feedback {
+		&__title {
+			h2 {
+				font-size: 2rem;
+			}
+		}
+	}
+	/*DESIGN FEEDBACK*/
+	/*QUOTES*/
+	.quotes {
+		&__title {
+			h2 {
+				font-size: 2rem;
+			}
+		}
+	}
+	/*QUOTES*/
+	/*PAYMENT PLANS*/
+	.payment-plans {
+		&__title {
+			h2 {
+				font-size: 2rem;
+			}
+		}
+	} 
+	/*PAYMENT PLANS*/ 
+	/*QUESTIONS*/
+	.questions {
+		&__block {
+			padding: 60px 30px!important;
+			&-title {
+				h2 {
+					font-size: 2rem;
+				}
+			}
+		}
+	}
+	/*QUESTIONS*/
+	/*FOOTER*/
+	.footer {
+		min-height: 100px;
+		&__inner {
+			padding: 50px 0;
+		}
+		&__block {
+			padding: 10px;
+			padding-bottom: 10px;
+		}
+	} 
+	/*FOOTER*/ 
+} 
+@media (max-width: 768px) {
+	/*HEADER*/
+	.header {
+		padding-top: 100px;
+		padding-bottom: 100px;
+		min-height: auto;
+		&__text {
+			margin-top: 0;
+			&-title {
+				h1 {
+					font-size: 2.8rem;
+				}
+			}
+		}
+	} 
+	/*HEADER*/ 
+	/*INFO*/
+	.info {
+		&__block {
+			background: #ffffff;
+			min-height: 300px;
+			&-percent {
+				&-text {
+					margin: 0;
+				}
+			}
+		}
+	} 
+	/*INFO*/ 
+	/*INTRO DESIGN*/
+	.intro-design {
+		&__info-block {
+			background-size: 90%;
+			min-height: 570px;
+			padding: 30px 20px;
+			margin-bottom: 50px;
+		}
+	} 
+	/*INTRO DESIGN*/ 
+
+	/*CREATE CAMPAIGN*/
+	.create-campaign {
+		padding-top: 50px;
+	}
+	/*CREATE CAMPAIGN*/
+	/*QUOTES*/
+	.quotes {
+		&__carousel {
+			.card {
+				background-size: 40%;
+			}
+		}
+	} 
+	/*QUOTES*/ 
+}
+@media (max-width: 576px) {
+	/*MENU*/
+	.menu {
+		&__navbar-btn {
+			button {
+				padding: .9rem 1.5rem;
+			}
+		}
+	} 
+	/*MENU*/ 
+	/*HEADER*/
+	.header {
+		min-height: auto;
+		padding-top: 50px;
+		padding-bottom: 50px;
+		&__text {
+			&-title {
+				h1 {
+					font-size: 2rem;
+				}
+			}
+		}
+	} 
+	/*HEADER*/ 
+	/*SUBHEADER*/
+	.subheader {
+		&__text {
+			h3 {
+				font-size: 1.4rem;
+			}
+		}
+	}
+	/*SUBHEADER*/
+	/*INFO*/
+	.info {
+		&__block {
+			padding: 30px 10px;
+			&-title {
+				h2 {
+					font-size: 1.6rem;
+				}
+			}
+		}
+	}
+	/*INFO*/
+	/*INTRO DESIGN*/
+	.intro-design {
+		min-height: 100px;
+		margin: 0;
+		&__info-block {
+			background-size: 100%;
+			padding: 50px 0px 30px 0;
+		}
+		&__text-block {
+			&-title {
+				h2 {
+					font-size: 1.6rem;
+				}
+			}
+		}
+	}
+	/*INTRO DESIGN*/
+	/*CREATE CAMPAIGN*/
+	.create-campaign {
+		&__block {
+			&-title {
+				h2 {
+					font-size: 1.8rem;
+				}
+			}
+		}
+	}
+	/*CREATE CAMPAIGN*/
+	/*DESIGN FEEDBACK*/
+	.design-feedback {
+		margin: 0;
+		&__title{
+			h2 {
+				font-size: 1.8rem;
+			}
+		}
+	}
+	/*DESIGN FEEDBACK*/
+	/*QUOTES*/
+	.quotes {
+		&__title {
+			h2 {
+				font-size: 1.8rem;
+			}
+		}
+	}
+	/*QUOTES*/
+	/*PAYMENT PLANS*/
+	.payment-plans {
+		&__title {
+			h2 {
+				font-size: 1.8rem;
+			}
+		}
+	} 
+	/*PAYMENT PLANS*/ 
+	/*QUESTIONS*/
+	.questions {
+		&__block {
+			padding: 50px 10px!important;
+			&-title {
+				margin-bottom: 60px!important;
+				h2 {
+					font-size: 1.8rem;
+				}
+			}
+		}
+	} 
+	/*QUESTIONS*/ 
+}
+@media (max-width: 380px) {
+	/*MENU*/
+	.menu {
+		&__navbar-btn {
+			button {
+				padding: .9rem 1rem;
+				&:active, &:focus {
+					padding: .9rem 1rem!important;
+				}
+			}
+		}
+	} 
+	/*MENU*/ 
+	/*QUOTES*/
+	.quotes {
+		&__title {
+			h2 {
+				font-size: 1.6rem;
+			}
+		}
+	}
+	/*QUOTES*/
+	/*PAYMENT PLANS*/
+	.payment-plans {
+		&__title {
+			h2 {
+				font-size: 1.6rem;
+			}
+		}
+	} 
+	/*PAYMENT PLANS*/ 
+	/*INTRO DESIGN*/
+	.intro-design {
+		&__info-block {
+			min-height: 300px;
+			padding: 60px 0px 25px 0;
+			&-text {
+				p {
+					font-size: 0.9rem;
+				}
+				span {
+					font-size: 0.9rem;
+				}
+			}
+		}
+	}
+	/*INTRO DESIGN*/
+	/*DESIGN FEEDBACK*/
+	.design-feedback {
+		&__title{
+			h2 {
+				font-size: 1.6rem;
+			}
+		}
+	}
+	/*DESIGN FEEDBACK*/
+	/*CREATE CAMPAIGN*/
+	.create-campaign {
+		&__block {
+			&-title {
+				h2 {
+					font-size: 1.6rem;
+				}
+			}
+		}
+	}
+	/*CREATE CAMPAIGN*/
+	/*QUESTIONS*/
+	.questions {
+		&__block {
+			&-title {
+				h2 {
+					font-size: 1.6rem;
+				}
+			}
+		}
+	}
+	/*QUESTIONS*/
+}
+/*MEDIA QUERIES*/ 
